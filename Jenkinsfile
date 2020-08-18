@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('pull from git') {
       steps {
-        bat 'git \'https://github.com/akshitdeep/auto_dep\''
+        git 'https://github.com/akshay073/test'
       }
     }
 
